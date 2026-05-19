@@ -29,9 +29,9 @@ export default function Navbar({ activePage, onNavigate, cartCount, onCartOpen, 
             className="flex items-center gap-2"
           >
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center neon-glow">
-              <span className="text-white font-bold text-sm font-oswald">N</span>
+              <span className="text-white font-bold text-sm font-oswald">W</span>
             </div>
-            <span className="text-xl font-bold font-oswald gradient-text tracking-wider">NOVA</span>
+            <span className="text-xl font-bold font-oswald gradient-text tracking-wider">DR.WEB</span>
           </button>
 
           <nav className="hidden md:flex items-center gap-1">

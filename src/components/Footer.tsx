@@ -15,12 +15,12 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div className="md:col-span-1">
             <button onClick={() => onNavigate("home")} className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center neon-glow">
-                <span className="text-white font-bold text-sm font-oswald">N</span>
+                <span className="text-white font-bold text-sm font-oswald">W</span>
               </div>
-              <span className="text-xl font-bold font-oswald gradient-text tracking-wider">NOVA</span>
+              <span className="text-xl font-bold font-oswald gradient-text tracking-wider">DR.WEB</span>
             </button>
             <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-              Современный интернет-магазин с лучшими товарами и быстрой доставкой по всей России.
+              Официальный магазин лицензий Dr.Web. Антивирусная защита для Windows, Android, macOS и всей семьи.
             </p>
             <div className="flex gap-3">
               {["Instagram", "Youtube", "Send"].map((icon, i) => (

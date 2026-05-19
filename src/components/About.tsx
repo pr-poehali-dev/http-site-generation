@@ -27,7 +27,7 @@ export default function About() {
             МЫ СОЗДАЁМ <span className="gradient-text">БУДУЩЕЕ</span> ШОПИНГА
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            NOVA — это место, где тренды встречаются с доступностью. Мы работаем с 2020 года и успели завоевать доверие более 50 000 покупателей по всей России.
+            Dr.Web — российский разработчик антивирусного ПО с 1992 года. Более 500 миллионов устройств по всему миру защищены нашими продуктами.
           </p>
         </div>
       </section>
@@ -36,10 +36,10 @@ export default function About() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
-            { num: "50 000+", label: "Покупателей" },
-            { num: "12 000+", label: "Товаров" },
-            { num: "6 лет", label: "На рынке" },
-            { num: "98%", label: "Довольных клиентов" },
+            { num: "500 млн+", label: "Защищённых устройств" },
+            { num: "25 лет", label: "На рынке" },
+            { num: "190+", label: "Стран мира" },
+            { num: "98%", label: "Обнаружение угроз" },
           ].map((s, i) => (
             <div key={i} className="gradient-border rounded-2xl p-6 text-center">
               <div className="font-oswald text-4xl font-bold gradient-text mb-2">{s.num}</div>
